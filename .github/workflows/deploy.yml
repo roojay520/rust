@@ -17,7 +17,7 @@ jobs:
       - name: Deploy Github
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.DOCS_TOKEN }}
+          github_token: ${{ secrets.RUST_DOCS_TOKEN }}
           publish_dir: ./src/.vuepress/dist
           publish_branch: gh-pages
           user_name: "github-actions[bot]"
